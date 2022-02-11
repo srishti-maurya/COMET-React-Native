@@ -3,10 +3,8 @@ import Config from "react-native-config";
 import {
   SafeAreaView,
   ScrollView,
-  StatusBar,
   StyleSheet,
   Text,
-  useColorScheme,
   View,
 } from 'react-native';
 
@@ -17,7 +15,7 @@ const App = () => {
         <View style={styles.sectionContainer}>
           <Text style={styles.sectionTitle}>Hello world</Text>
           <Text>My api url : {Config.API_URL}</Text>
-        <Text>{Config.GOOGLE_MAPS_API_KEY}</Text>
+        <Text>My api key :{Config.GOOGLE_MAPS_API_KEY}</Text>
         </View>
       </ScrollView>
     </SafeAreaView>
